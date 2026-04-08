@@ -66,17 +66,7 @@ NODE_ENV=development
 FRONTEND_URL=http://localhost:5173
 ```
 
-### 3. Seed the Database
-
-```bash
-cd backend
-npm run seed
-# or: node src/seed.js
-```
-
-This creates 3 test users and 30 sample transactions.
-
-### 4. Run the Application
+### 3. Run the Application
 
 **Backend** (Terminal 1):
 ```bash
@@ -259,7 +249,6 @@ finance-dashboard/
 │   │   ├── utils/
 │   │   │   ├── apiResponse.js
 │   │   │   └── asyncHandler.js
-│   │   ├── seed.js
 │   │   └── app.js
 │   ├── server.js
 │   ├── .env.example
